@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffff;
+
+}
+
+.circulo{
+    height: 400px;
+    width: 400px;
+    background: blueviolet;
+    border-radius: 200px;
+}
+
+.circulo:hover{
+    margin-right: 500px;
+    transition: 4s;
+}

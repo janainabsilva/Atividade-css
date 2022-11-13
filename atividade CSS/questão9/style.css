@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffff;
+
+}
+
+.circulo{
+    animation-name: pulsar;
+    animation-iteration-count:  infinite;
+    animation-duration: 3s;
+    height: 200px;
+    width: 200px;
+    background:  orange;
+    border-radius: 100px;
+    
+    
+}
+
+
+@keyframes pulsar{
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.5);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}

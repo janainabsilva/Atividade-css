@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffff;
+}
+
+.imagem{
+    height: 200px;
+    width: 200px;
+}
+
+.imagem:hover{
+    margin-right: 1500px;
+    margin-top: -800px;
+    transition: 4s;
+}
+
+
+
